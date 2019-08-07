@@ -1,14 +1,3 @@
-[![Angular Logo](https://www.vectorlogo.zone/logos/angular/angular-icon.svg)](https://angular.io/) [![Electron Logo](https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg)](https://electronjs.org/)
-
-[![Travis Build Status][build-badge]][build]
-[![Dependencies Status][dependencyci-badge]][dependencyci]
-[![Make a pull request][prs-badge]][prs]
-[![License](http://img.shields.io/badge/Licence-MIT-brightgreen.svg)](LICENSE.md)
-
-[![Watch on GitHub][github-watch-badge]][github-watch]
-[![Star on GitHub][github-star-badge]][github-star]
-[![Tweet][twitter-badge]][twitter]
-
 # Introduction
 
 Bootstrap and package your project with Angular 8 and Electron (Typescript + SASS + Hot Reload) for creating Desktop applications.
@@ -32,7 +21,7 @@ With this sample, you can :
 Clone this repository locally :
 
 ``` bash
-git clone https://github.com/maximegris/angular-electron.git
+git clone https://github.com/19jake68/juanchos-pos-ui.git
 ```
 
 Install dependencies with npm :
@@ -83,14 +72,6 @@ You can do this! Just by importing your library in npm dependencies (not devDepe
 
 Maybe you want to execute the application in the browser with hot reload ? You can do it with `npm run ng:serve:web`.
 **Note that you can't use Electron or NodeJS native libraries in this case.** Please check `providers/electron.service.ts` to watch how conditional import of electron/Native libraries is done.
-
-## Branch & Packages version
-
-- Angular 4 & Electron 1 : Branch [angular4](https://github.com/maximegris/angular-electron/tree/angular4)
-- Angular 5 & Electron 1 : Branch [angular5](https://github.com/maximegris/angular-electron/tree/angular5)
-- Angular 6 & Electron 3 : Branch [angular6](https://github.com/maximegris/angular-electron/tree/angular6)
-- Angular 7 & Electron 3 : Branch [angular7](https://github.com/maximegris/angular-electron/tree/angular7)
-- Angular 8 & Electron 5 : (master)
 
 [build-badge]: https://travis-ci.org/maximegris/angular-electron.svg?branch=master
 [build]: https://travis-ci.org/maximegris/angular-electron
